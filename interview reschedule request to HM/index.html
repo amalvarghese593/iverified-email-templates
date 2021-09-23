@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style type="text/css">
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      .email-wrapper {
+        font-family: sans-serif, "Times New Roman", Times, serif;
+        background-color: #f6f6f6;
+      }
+      .email-wrapper img {
+        margin-bottom: 10px;
+        width: 130px;
+      }
+      .sub-container {
+        width: 80%;
+        margin: 0 auto;
+      }
+      .logo-container {
+        background-color: #f1f4f8;
+        text-align: center;
+        padding: 15px 10px;
+      }
+      .email-middle {
+        text-align: center;
+        padding: 50px 10px;
+        background-color: #fff;
+      }
+      .email-middle a {
+        color: #06c;
+      }
+      .email-middle a:hover {
+        color: blue;
+      }
+      .address-footer {
+        text-align: center;
+        padding: 20px;
+        line-height: 24px;
+        color: #80868b;
+        background-color: #f6f6f6;
+      }
+      .address-footer a {
+        color: #80868b;
+      }
+
+      @media all and (max-width: 768px) {
+        .email-middle {
+          text-align: left;
+          padding: 50px 20px;
+        }
+      }
+      @media all and (max-width: 500px) {
+        .logo-container img {
+          width: 100px;
+        }
+        .sub-container {
+          width: 90%;
+        }
+      }
+      @media all and (max-width: 415px) {
+        .email-middle {
+          font-size: 15px;
+          padding: 50px 15px;
+        }
+        .address-footer {
+          font-size: 13px;
+        }
+        .logo-container img {
+          width: 80px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="email-wrapper">
+      <div class="sub-container">
+        <div class="logo-container">
+          <img src="./unnamed.png" alt="Logo" />
+        </div>
+        <div class="email-middle">
+          <p>Hi HM Name,</p>
+          <br />
+          <p>
+            CAN_Name has requested to reschedule interview for job requirement
+            job_ID to date and time.
+          </p>
+          <br />
+          <p>Click <a href="#">link</a> to view.</p>
+          <br /><br />
+        </div>
+        <div class="address-footer">
+          <p>
+            WebPipl, #601, White Fields, Hyderabad, 500081 <br />
+            Don't like these Emails?
+            <a href="#">Unsubscribe</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
