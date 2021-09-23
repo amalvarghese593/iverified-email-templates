@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style type="text/css">
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      :root {
+        --font-family-secondary: sans-serif;
+      }
+      .email-wrapper {
+        font-family: var(--font-family-secondary);
+        background-color: #f6f6f6;
+      }
+      .email-wrapper img {
+        margin-bottom: 10px;
+        width: 130px;
+      }
+      .sub-container {
+        width: 80%;
+        margin: 0 auto;
+      }
+      .logo-container {
+        background-color: #f1f4f8;
+        text-align: center;
+        padding: 15px 10px;
+      }
+      .email-middle {
+        text-align: center;
+        padding: 50px 10px;
+        background-color: #fff;
+      }
+      .email-middle a {
+        color: #06c;
+      }
+      .email-middle a:hover {
+        color: blue;
+      }
+      .address-footer {
+        text-align: center;
+        padding: 20px;
+        line-height: 24px;
+        color: #80868b;
+        background-color: #f6f6f6;
+      }
+      .address-footer a {
+        color: #80868b;
+      }
+      .para-left {
+        text-align: left;
+        padding-left: 20px;
+      }
+      @media all and (max-width: 768px) {
+        .email-middle {
+          text-align: left;
+          padding: 50px 20px;
+        }
+      }
+      @media all and (max-width: 500px) {
+        .logo-container img {
+          width: 100px;
+        }
+        .sub-container {
+          width: 90%;
+        }
+      }
+      @media all and (max-width: 415px) {
+        .email-middle {
+          font-size: 15px;
+          padding: 50px 15px;
+        }
+        .address-footer {
+          font-size: 13px;
+        }
+        .logo-container img {
+          width: 80px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="email-wrapper">
+      <div class="sub-container">
+        <div class="logo-container">
+          <img src="./unnamed.png" alt="Logo" />
+        </div>
+        <div class="email-middle">
+          <p>Hi Candidate Name,</p>
+          <br />
+          <p>
+            Your profile seems like a good fit for the position of
+            Requirement_Name. I would like to schedule an interview call so we
+            can get to know you better and discuss the role and Company.
+          </p>
+          <br />
+          <p>
+            Please let me know if you would be available on Date and Time for
+            the interview round so that I may send a calendar invitation.
+          </p>
+          <br /><br />
+          <p class="para-left">
+            Thanks, <br />
+            Hiring Manager_Name
+          </p>
+        </div>
+        <div class="address-footer">
+          <p>
+            WebPipl, #601, White Fields, Hyderabad, 500081 <br />
+            Don't like these Emails?
+            <a href="#">Unsubscribe</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
